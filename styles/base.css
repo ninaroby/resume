@@ -1,0 +1,65 @@
+body {
+	background-color: white;
+	font-family: sans-serif;
+}
+
+.resume {
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+
+}
+
+.resume section {
+	margin: 1em;
+	padding: 1em;
+	background-color:  #f2f2f2;
+	border: 1px solid gainsboro;
+	font: 1.1em sans-serif;
+	text-align: left;
+	line-height: 1.5em;
+	color: #8c8c8c;
+}
+
+.resume h1, .resume  h2, .resume h3 {
+	font-weight: 100;
+	margin-bottom: 0;
+}
+
+.resume h1 {
+	font-size: 2.5em;
+	text-align: center;
+}
+.resume h3 {
+	font-size: 1.2em;
+}
+
+.resume ul li {
+	list-style-type: circle;
+}
+
+.header {
+	text-align: center;
+	font-size: small;
+}
+
+table {
+	width: 100%;
+	background-color: white;
+}
+
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+
+table, th, td {
+	border: 1px solid gainsboro;
+    border-collapse: collapse;
+}
+
+@media only screen and (min-width: 960px) {
+	.resume {
+		width: 70%;
+	}
+}
