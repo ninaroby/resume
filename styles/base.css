@@ -37,7 +37,8 @@ body {
 
 .resume h2 {
 	font-size: 1.125em;
-	font-weight: bold;
+	font-weight: 600;
+	margin-bottom: .25em;
 }
 
 .resume h3 {
