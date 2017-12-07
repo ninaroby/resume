@@ -80,7 +80,7 @@ table, th, td {
     border-collapse: collapse;
 }
 
-td {
+td, th {
 	font-size: .95em;
 	font-weight: 100;
 }
